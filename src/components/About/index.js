@@ -19,7 +19,7 @@ function About() {
         </p>
       </div>
         <div className="col-5">
-            <img src={ profile } className="img-fluid rounded m-4 p-4" style={{ width: "100%" }} alt="cover" />
+            <img src={ profile } className="img-fluid rounded m-4 p-4" style={{ width: "15%" }} alt="cover" />
         </div>
         <div class="col-6">
           <div class="row">

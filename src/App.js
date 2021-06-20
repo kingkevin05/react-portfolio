@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+// import Projects from './components/Projects';
+// import Contact from './components/Contact';
+// import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 import './App.css';
 
 
@@ -12,10 +12,10 @@ function App() {
 
   const renderPage = () => {
     switch(currentPage) {
-      case 'Projects':
-        return <Projects />;
-      case 'contact':
-        return <Contact />;
+      // case 'Projects':
+      //   return <Projects />;
+      // case 'contact':
+      //   return <Contact />;
       default:
         return <About />
     }
@@ -23,11 +23,11 @@ function App() {
 
   return (
     <div >
-      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage}></Navbar>
+      <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage}></Navigation>
       <main>
         {renderPage(currentPage)}
       </main>
-       <Footer />
+       {/* <Footer /> */}
     </div>
   );
 }
