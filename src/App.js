@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import About from './components/About';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import './App.css';
 
@@ -27,7 +27,7 @@ function App() {
       <main>
         {renderPage(currentPage)}
       </main>
-       {/* <Footer /> */}
+       <Footer />
     </div>
   );
 }
