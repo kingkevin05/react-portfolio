@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import About from './components/About';
-// import Projects from './components/Projects';
+import Projects from './components/Projects';
 // import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
@@ -12,8 +12,8 @@ function App() {
 
   const renderPage = () => {
     switch(currentPage) {
-      // case 'Projects':
-      //   return <Projects />;
+      case 'projects':
+        return <Projects />;
       // case 'contact':
       //   return <Contact />;
       default:
