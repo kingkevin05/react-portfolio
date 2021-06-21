@@ -12,7 +12,7 @@ function projects() {
       <div className="row m-4 pt-5">
         <div className="col-3"></div>
         <div className="col-6 text-center mb-3">
-          <h1 className="sub-title">my projects</h1>
+          <h1 className="sub-title">projects</h1>
         </div>
         <div className="col-3"></div>
       </div>
@@ -186,11 +186,7 @@ function projects() {
             className="card rounded m-4 project shadow-sm"
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
-            <img
-              src={planner}
-              className="card-img-top rounded"
-              alt="planner"
-            />
+            <img src={planner} className="card-img-top rounded" alt="planner" />
             <div className="card-body">
               <p className="card-text">
                 <a
