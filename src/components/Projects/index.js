@@ -1,4 +1,5 @@
 import React from "react";
+import monstera from "../../assets/images/monstera.png";
 import swapmeet from "../../assets/images/swapmeet.png";
 import note from "../../assets/images/note.png";
 import weather from "../../assets/images/weather.png";
@@ -18,6 +19,37 @@ function projects() {
       </div>
       <div className="row">
         <div className="card-group">
+        <div
+            className="card rounded m-4 project shadow-sm"
+            style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
+          >
+            <img src={monstera} className="card-img-top rounded" alt="monstera" />
+            <div className="card-body">
+              <p className="card-text">
+                <a
+                  to="route"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-text"
+                  href="https://monstera2.herokuapp.com/"
+                >
+                  Monstera
+                </a>
+              </p>
+              <p className="card-text repo">
+                <a
+                  to="route"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-text"
+                  href="https://github.com/down-dive/monstera"
+                >
+                  View Code
+                </a>
+              </p>
+            </div>
+          </div>
+
           <div
             className="card rounded m-4 project shadow-sm"
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
