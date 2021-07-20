@@ -24,7 +24,7 @@ function About() {
         <div class="col-6">
           <div class="row">
             <p className="m-4 p-4 col-12 bold-text">
-            Hello my name is Kevin Lawrence and I am a full-stack web developer currently seeking opportunities in front-end or back-end web development . I currently reside in Oakland California where I've recently completed the Full Stack web development bootcamp at UC Berkeley. Before moving to the bay area I got my Bachelors Degree in media arts and animation from the Art Institute of California Hollywood. Besides being a creative person I also would consider myself very tech/computer savvy. I got into coding because I enjoy figuring out how to make things work as well problem solving. After completing the bootcamp I've  discovered that my strengths in design has translated into being very proficient in front web development especially in react.js.
+            Hello my name is Kevin Lawrence and I am a full-stack web developer currently seeking opportunities in front-end or back-end web development . I currently reside in Oakland California where I've recently completed the Full Stack web development bootcamp at UC Berkeley. Before moving to the bay area I got my Bachelors Degree in media arts and animation from the Art Institute of California Hollywood. Besides being a creative person I also would consider myself very tech/computer savvy. I got into coding because I enjoy figuring out how to make things work as well as problem solving. After completing the bootcamp I've  discovered that my strengths in design has translated into being very proficient in front web development especially in react.js.
             </p>
           </div>
           <p className="m-4 p-4 col intro-text">
