@@ -6,6 +6,7 @@ import weather from "../../assets/images/weather.png";
 import budget from "../../assets/images/budget.png";
 import weatherApp from "../../assets/images/weatherApp.png";
 import planner from "../../assets/images/planner.png";
+import booksearch from "../../assets/images/booksearch.png";
 
 function projects() {
   return (
@@ -144,6 +145,41 @@ function projects() {
           </div>
         </div>
         <div className="card-group">
+          <div
+            className="card rounded m-4 project shadow-sm"
+            style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
+          >
+            <img
+              src={booksearch}
+              className="card-img-top rounded"
+              alt="book search"
+            />
+            <div className="card-body">
+              <p className="card-text">
+                <a
+                  to="route"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-text"
+                  href="https://immense-falls-32190.herokuapp.com/"
+                >
+                  Book Search Engine
+                </a>
+              </p>
+              <p className="card-text repo">
+                <a
+                  to="route"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="card-text"
+                  href="https://github.com/kingkevin05/book-search-engine"
+                >
+                  View Code
+                </a>
+              </p>
+            </div>
+          </div>
+
           <div
             className="card rounded m-4 project shadow-sm"
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
