@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navigation(props) {
-  const navLinks = ["about", "projects", "contact"];
+  const navLinks = ["about", "projects", "contact", "resume"];
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light shadow-sm"

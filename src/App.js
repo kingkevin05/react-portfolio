@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
+import Resume from "./components/Resume";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         return <Projects />;
       case "contact":
         return <Contact />;
+      case "resume":
+        return <Resume />;
       default:
         return <About />;
     }

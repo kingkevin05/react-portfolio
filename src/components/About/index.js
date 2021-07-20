@@ -13,22 +13,22 @@ function About() {
     </div>
     <div className="container shadow">
       <div className="row">
-      <div className="col-12">
+      {/* <div className="col-12">
         <p className="m-4 p-4 text-center bold-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur vitae nunc sed velit dignissim sodales ut. Aliquet eget sit amet tellus cras adipiscing enim eu. Integer eget aliquet nibh praesent. Id nibh tortor id aliquet lectus. Praesent semper feugiat nibh sed pulvinar proin gravida. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Sit amet consectetur adipiscing elit. Urna duis convallis convallis tellus id. Laoreet sit amet cursus sit amet. Euismod nisi porta lorem mollis aliquam ut. Sed blandit libero volutpat sed cras ornare arcu. Aliquet enim tortor at auctor urna nunc id cursus metus. Donec adipiscing tristique risus nec feugiat in fermentum. Augue lacus viverra vitae congue eu consequat ac. Scelerisque fermentum dui faucibus in ornare. Porttitor lacus luctus accumsan tortor posuere ac ut. 
+        Hello my name is Kevin Lawrence and I am a full-stack web developer currently seeking opprotunities in front-end or back-end web development . I currently reside in Oakland California where I've recently completed the Full Stack web development bootcamp at UC Berkeley. Before moving to the bay area I got my Bacholors Degree in media arts and animation from the Art Institute of Califronia Hollywood. Besides being a creative person I also would consider myself very tech/computer savy. I got into coding becuase I enjoy figuring out how to make things work as well problem solving. After completing the bootcamp I've  discovered that my strengths in desgin has translated into being very proficient in front web development especially in react.js.
         </p>
-      </div>
+      </div> */}
         <div className="col-5">
             <img src={ profile } className="img-fluid rounded m-4 p-4" style={{ width: "100%" }} alt="cover" />
         </div>
         <div class="col-6">
           <div class="row">
-            <p className="m-4 p-4 col-12 intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum id venenatis a condimentum vitae.
+            <p className="m-4 p-4 col-12 bold-text">
+            Hello my name is Kevin Lawrence and I am a full-stack web developer currently seeking opportunities in front-end or back-end web development . I currently reside in Oakland California where I've recently completed the Full Stack web development bootcamp at UC Berkeley. Before moving to the bay area I got my Bachelors Degree in media arts and animation from the Art Institute of California Hollywood. Besides being a creative person I also would consider myself very tech/computer savvy. I got into coding because I enjoy figuring out how to make things work as well problem solving. After completing the bootcamp I've  discovered that my strengths in design has translated into being very proficient in front web development especially in react.js.
             </p>
           </div>
           <p className="m-4 p-4 col intro-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Things I like to do: snacking, basketball, video games, fixing things, listening to soundclound, streaming, social gatherings, eating at the secret spots, drawing, and making friends
           </p>
         </div>
       </div>
