@@ -6,11 +6,10 @@ function Footer() {
     <footer>
       <div className="row m-4 p-5 shadow">
         <div className="col-1"></div>
-        <div className="text-center col-2 icon">
-          <a
-            href="kevin.lawrence404@gmail.com"
-            className="fa fa-envelope-o"
-          ></a>
+        <div className="text-center col">
+          <p className="bold-text">
+            email: kevin.lawrence404@gmail.com
+          </p>
         </div>
         <div className="text-center col-2 icon">
           <a href="tel:(404)731-5478" className="fa fa-phone"></a>
