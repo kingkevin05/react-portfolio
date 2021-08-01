@@ -37,6 +37,9 @@ function projects() {
                   Monstera
                 </a>
               </p>
+              <p className= "text-center">
+              An application to help preventing domestic violence, enabling users to send notifications and share their live location with their friends.
+              </p>
               <p className="card-text repo">
                 <a
                   to="route"
@@ -67,6 +70,9 @@ function projects() {
                 >
                   Weather or Not
                 </a>
+              </p>
+              <p className= "text-center">
+              This app made to give the user activity recommendations based on weather in any given area.
               </p>
               <p className="card-text repo">
                 <a
@@ -99,6 +105,9 @@ function projects() {
                   Budget Tracker
                 </a>
               </p>
+              <p className= "text-center">
+              The budget tracker app lets the user add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
+              </p>
               <p className="card-text repo">
                 <a
                   to="route"
@@ -129,6 +138,9 @@ function projects() {
                 >
                   Note Taker
                 </a>
+              </p>
+              <p className= "text-center">
+              An application that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
               </p>
               <p className="card-text repo">
                 <a
@@ -166,6 +178,9 @@ function projects() {
                   Book Search Engine
                 </a>
               </p>
+              <p className= "text-center">
+              This a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server.
+              </p>
               <p className="card-text repo">
                 <a
                   to="route"
@@ -200,6 +215,9 @@ function projects() {
                 >
                   Swap Meet
                 </a>
+              </p>
+              <p className= "text-center">
+              Swap Meet was created to help others meet, sell, and trade their possessions. Our services help people post listings through a simple user friendly interface and browse a variety of other listings in their area.
               </p>
               <p className="card-text repo">
                 <a
@@ -236,6 +254,9 @@ function projects() {
                   Local Weather
                 </a>
               </p>
+              <p className= "text-center">
+              A weather dashboard that runs in the browser and features a dynamically updated HTML and CSS. It uses the OpenWeather One Call API to retrieve weather data for cities.
+              </p>
               <p className="card-text repo">
                 <a
                   to="route"
@@ -266,6 +287,9 @@ function projects() {
                 >
                   Work Day Planner
                 </a>
+              </p>
+              <p className= "text-center">
+              A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
               </p>
               <p className="card-text repo">
                 <a
