@@ -25,7 +25,7 @@ function projects() {
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
             <img src={monstera} className="card-img-top rounded" alt="monstera" />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -38,17 +38,19 @@ function projects() {
                 </a>
               </p>
               <p className= "text-center">
-              An application to help preventing domestic violence, enabling users to send notifications and share their live location with their friends.
+              An application to help prevent domestic violence, enabling users to connect, share their experiences and support while also being able to share live location with their friends in case they're in danger.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, MongoDB, Express, React.js, Node.js, Google maps, Material-UI, GraphQL, Apollo
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/down-dive/monstera"
                 >
-                  View Code
                 </a>
               </p>
             </div>
@@ -59,7 +61,7 @@ function projects() {
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
             <img src={weather} className="card-img-top rounded" alt="weather" />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -74,15 +76,17 @@ function projects() {
               <p className= "text-center">
               This app made to give the user activity recommendations based on weather in any given area.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Bootstrap Google maps API
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github repo"
                   href="https://github.com/kingkevin05/weather-or-not"
                 >
-                  View Code
                 </a>
               </p>
             </div>
@@ -93,7 +97,7 @@ function projects() {
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
             <img src={budget} className="card-img-top rounded" alt="budget" />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -108,15 +112,17 @@ function projects() {
               <p className= "text-center">
               The budget tracker app lets the user add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Express, Mongoose, Morgan, Compression
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/budget-tracker"
                 >
-                  View Code
                 </a>
               </p>
             </div>
@@ -127,7 +133,7 @@ function projects() {
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
             <img src={note} className="card-img-top rounded" alt="note" />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -142,15 +148,17 @@ function projects() {
               <p className= "text-center">
               An application that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Express
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/Express.js-Challenge-Note-Taker"
                 >
-                  View Code
                 </a>
               </p>
             </div>
@@ -166,7 +174,7 @@ function projects() {
               className="card-img-top rounded"
               alt="book search"
             />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -181,15 +189,18 @@ function projects() {
               <p className= "text-center">
               This a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Bootstrap, GraphQL, React, Apollo, Concurrently, RESTful API, MongoDB, Express
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/book-search-engine"
                 >
-                  View Code
+                  
                 </a>
               </p>
             </div>
@@ -204,7 +215,7 @@ function projects() {
               className="card-img-top rounded"
               alt="draftRoom"
             />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -219,15 +230,18 @@ function projects() {
               <p className= "text-center">
               Swap Meet was created to help others meet, sell, and trade their possessions. Our services help people post listings through a simple user friendly interface and browse a variety of other listings in their area.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Handlebars, MySQL2, Sequelize, Express, Bcrypt
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/swap-meet"
                 >
-                  View Code
+                
                 </a>
               </p>
             </div>
@@ -242,7 +256,7 @@ function projects() {
               className="card-img-top rounded"
               alt="weatherApp"
             />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -257,15 +271,17 @@ function projects() {
               <p className= "text-center">
               A weather dashboard that runs in the browser and features a dynamically updated HTML and CSS. It uses the OpenWeather One Call API to retrieve weather data for cities.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, Bootstrap, JQuery, Open Weather API
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/local-weather"
                 >
-                  View Code
                 </a>
               </p>
             </div>
@@ -276,7 +292,7 @@ function projects() {
             style={{ width: "100%", backgroundColor: "#fbefcc9a" }}
           >
             <img src={planner} className="card-img-top rounded" alt="planner" />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column">
               <p className="card-text">
                 <a
                   to="route"
@@ -291,15 +307,17 @@ function projects() {
               <p className= "text-center">
               A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
               </p>
-              <p className="card-text repo">
+              <p className="tech-text repo">
+                Javascript, HTML, CSS, JQuery
+              </p>
+              <p className="card-text mt-auto">
                 <a
                   to="route"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-text"
+                  className="fa fa-github"
                   href="https://github.com/kingkevin05/wk-5-challenge"
                 >
-                  View Code
                 </a>
               </p>
             </div>

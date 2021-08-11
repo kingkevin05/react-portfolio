@@ -97,16 +97,26 @@
   text-decoration: none;
   color: black;
 }
+
+.tech-text {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
 .card-text:hover {
   text-decoration: none;
   color: #338adb63;
 }
-.repo {
+/* .repo {
   font-size:18px;
-}
-.repo:hover{
+} */
+/* .repo:hover{
   color: #338adb63;
-}
+} */
 .resume {
   font-family: 'Tajawal', sans-serif;
   font-size: 28px;
