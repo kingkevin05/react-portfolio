@@ -25,9 +25,9 @@ function About() {
           <p className="m-4 p-4 col bold-text">
           Technical skills: React.js, javascript, node.js, CSS, material-UI, Adobe Creative Suite, handlebars.js, bootstrap
           </p>
-          <p className="m-4 p-4 col intro-text">
+          {/* <p className="m-4 p-4 col intro-text">
           Things I like to do: snacking, basketball, video games, fixing things, listening to soundclound, streaming, social gatherings, eating at the secret spots, drawing, and making friends
-          </p>
+          </p> */}
         </div>
       </div>
     </div> 
