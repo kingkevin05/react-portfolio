@@ -19,7 +19,7 @@ function About() {
         <div class="col-6">
           <div class="row">
             <p className="m-4 p-4 col-12 bold-text">
-            Hello my name is Kevin Lawrence, a front-end web developer leveraging a media arts background to build a more intuitive user interfaces on the web. Recently earned a certificate in full stack development from the University of California  Berkeley, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Known as an innovative problem solver passionate about developing apps, with a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user interface. I applied aspects of UI and agile development in a recent project.
+            Hello my name is Kevin Lawrence, a front-end web developer with a background in media arts. Combining that skillset with web development I'm able to build creative user interfaces while also ensuring an intuitive user experience. Recently earned a certificate in full stack development from the University of California Berkeley, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. My strengths in design has translated into being proficient in front web development especially with react.js. As I progress in programming, my aim is to best engage my audience with an impactful user interface that's simple yet informative. Though most proficient in front-end web development I'm also quite skilled in back-end server management using tools like graphQL, MYSQL, express.js, and mongoDB.
             </p>
           </div>
           <p className="m-4 p-4 col bold-text">
